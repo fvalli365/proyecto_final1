@@ -1,0 +1,116 @@
+.texto_jue {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 840px;
+    color: $color_texto;
+    @media (max-width: 420px) {
+        width: 410px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.nombre_jue {
+    color: $color_link;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+    @media (max-width: 420px) {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(10,auto);
+    }
+}
+
+p {
+    text-align : center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;  
+    border-bottom: none; 
+}
+
+.imag_jue {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }
+
+.item1 {
+    @include grilla(1,2,1,2);
+    @media (max-width: 420px) {
+        @include grilla(1,2,1,2);
+    }
+}
+.item2 {
+    @include grilla(1,2,2,3);
+    @media (max-width: 420px) {
+        @include grilla(2,3,1,2);
+    }
+}
+.item3 {
+    @include grilla(1,2,3,4);
+    @media (max-width: 420px) {
+        @include grilla(3,4,1,2);
+    }
+}
+
+.item4 {
+    @include grilla(2,3,1,2);
+    @media (max-width: 420px) {
+        @include grilla(4,5,1,2);
+    }
+}
+.item5 {
+    @include grilla(2,3,2,3);
+    @media (max-width: 420px) {
+        @include grilla(5,6,1,2);
+    }
+}
+.item6 {
+    @include grilla(2,3,3,4);
+    @media (max-width: 420px) {
+        @include grilla(6,7,1,2);
+    }
+}
+
+.item7 {
+    @include grilla(3,4,1,2);
+    @media (max-width: 420px) {
+        @include grilla(7,8,1,2);
+    }
+}
+.item8 {
+    @include grilla(3,4,2,3);
+    @media (max-width: 420px) {
+        @include grilla(8,9,1,2);
+    }
+}
+.item9 {
+    @include grilla(3,4,3,4);
+    @media (max-width: 420px) {
+        @include grilla(9,10,1,2);
+    }
+}
+
+.item10 {
+    @include grilla(4,5,1,2);
+    @media (max-width: 420px) {
+        @include grilla(10,11,1,2);
+    }
+}
+
+.footer_class {
+    margin-top: 10px;
+}
+
+.textos_esp {
+    text-align: justify;
+    text-justify: inter-word;
+}

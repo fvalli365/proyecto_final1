@@ -1,0 +1,28 @@
+.prog_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media (max-width: 420px) {
+        flex-direction: column;
+    }
+}
+
+.prog_img {
+    margin-left: 20px;
+}
+
+.texto_prog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 840px;
+    color: $color_texto;
+    @media (max-width: 420px) {
+        width: 410px;
+        padding-left: 10px;
+        padding-left: 10px;
+    }
+}

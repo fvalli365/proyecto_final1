@@ -1,0 +1,35 @@
+@mixin grilla ($row1, $row2, $col1, $col2) {
+    grid-row-start: $row1;
+    grid-row-end: $row2;
+    grid-column-start: $col1 ;
+    grid-column-end: $col2;
+}
+
+/* Animaciones */
+
+@mixin keyframes($name){
+    @keyframes #{$name}{
+      @content;
+    }
+}
+  
+@mixin animate($animation, $duration, $method, $times){
+    animation-name: $animation;
+    animation-duration: $duration;
+    animation-iteration-count: $times;
+    animation-timing-function: $method;
+}
+  
+@include keyframes(efecto){
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(90deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(270deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.imag_header {
+    @include animate(efecto, 0.5s, ease-in, 1);
+}
+
+  

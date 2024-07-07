@@ -1,0 +1,45 @@
+
+Spectrum:
+Año: 1982
+Z80A (8bits)
+48KB RAM; 16 KBROM
+
+Microprocesador Zilog Z80A a 3,5 MHz. Dos configuraciones de RAM con 16 kB o 48 kB. Estos 16 kB de ROM incluían un intérprete del lenguaje BASIC SINCLAIR desarrollado por la compañía Nine Tiles Ltd.
+Teclado de caucho integrado en el ordenador en el modelo de 16 kB y en la primera versión de 48 kB. Sistema de almacenamiento en cinta casete de audio común. Una de las peculiaridades del ZX Spectrum es su sistema de vídeo, al ser capaz de mostrar una matriz de 256x192 pixeles, pero la resolución de color era únicamente de 32x24, por lo que grupos de 8x8 píxeles compartían información de color.
+
+https://es.wikipedia.org/wiki/Sinclair_ZX_Spectrum
+
++:
+Año: 1986
+Z80A (8bits)
+64KB RAM; 16 KBROM
+
+Placa base, rediseñada completamente por Investronica y basada en el Spectrum 128k modelo Español. Tiene prácticamente la misma ROM que la ROM1 del modelo Spectrum 128k, incluyendo los comandos típicos del 128k: "PLAY", "SPECTRUM". Dichos comandos están en la ROM pero no se pueden usar. Los tiempos de la CPU son similares a dicho modelo de 128k, teniendo 228 T-Estados por línea, como otros modelos 128k, a diferencia de los 224 típicos de los modelos de 48k.
+Conector DE-9 para un Joystick compatible con la interfaz de Kempston Micro Electronics.
+
+https://es.wikipedia.org/wiki/Investr%C3%B3nica_Inves_Spectrum_%2B
+
+
++2:
+Año: 1987
+Z80A (8bits)
+128KB RAM; 32 KBROM
+
+CPU Zilog Z80 8-bits a 3,5 MHz. 128 Kb de memoria RAM. 32 Kb de memoria ROM (incluye el intérprete BASIC 48 y 128). Capacidad de 8 colores (15 en modo "brillo", siete por dos niveles de brillo, más el negro). Resolución de 256x192 píxeles.
+Chip de sonido Yamaha AY-3-8912 (3 canales). Teclado tipo profesional de 58 teclas (calidad mejorada). Almacenamiento en casete incorporado (1200-1500 baudios) o Microdrives.
+
+https://es.wikipedia.org/wiki/ZX_Spectrum_128_%2B2
+
++3:
+Año: 1986
+Z80A (8bits)
+128KB RAM; 64 KBROM
+CPU Zilog Z80A de 8-bits a 3,5 MHz. 128 Kb de memoria RAM. 64 Kb de memoria ROM (incluye el intérprete de Sinclair BASIC, la ROM del modo 48K y el +3DOS). Capacidad de 8 colores (con 2 modos de "brillo"). Resolución de 256x192 pixels.
+Chip de sonido General Instrument AY-3-8912 (3 canales). Teclado tipo profesional de 58 teclas (similar al del ZX Spectrum 128 +2). Almacenamiento en disco incorporado (3", 180 Kb por cara, disco A:) o casete (unidad externa). Conector para una segunda disquetera externa (disco B:), sin necesidad de interface.
+
+https://es.wikipedia.org/wiki/ZX_Spectrum_128_%2B3
+
+
+
+
+

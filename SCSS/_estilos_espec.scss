@@ -1,0 +1,40 @@
+.espec_cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media (max-width: 420px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.list_espec {
+    padding-top: 50px;
+    list-style-type: none;
+    width: 640px;
+    .list_1 {
+        background-color: map-get($paleta-colores , color-1);
+    }
+    .list_2 {
+        background-color: map-get($paleta-colores , color-2 );
+    }
+    .list_3 {
+        background-color: map-get($paleta-colores , color-3 );
+        background-image: linear-gradient(to left, red, yellow, green, cyan);
+    }
+    @media (max-width: 420px) {
+        width: 410px;
+        padding: 10px;     
+    }
+}
+
+@media (max-width: 420px) {
+    .imag_esp {
+        text-align: center;
+    }
+}

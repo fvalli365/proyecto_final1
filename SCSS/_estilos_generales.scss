@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: map-get($fuentes , texto ),
+    sans-serif;
+}
+
+body {
+    background-color: $color_fondo;
+}
+
+h1 {
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    text-align: center;
+    margin: auto;
+    width: 840px;
+    color: $color_texto;
+    border: 1px solid $color_texto;
+    background-image: linear-gradient(to left, $color_t1, $color_t2, $color_t3, $color_t4, $color_t5);
+    border-radius: 25px;  
+}
+  
+@media (max-width: 420px) {
+    h1 {
+      width: 410px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
